@@ -365,3 +365,92 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     color: var(--iris-color);
     transition: var(--transition);
 }
+
+.subscribe-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    margin-block-end: 25px;
+}
+
+.input-email-footer {
+    border: 1px solid var(--white-color);
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.input-email-footer[type="email"] {
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+}
+
+.subscribe-btn {
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    background: var(--iris-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: var(--fond-family);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 24px;
+    line-height: 1.5em;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.subscribe-footer:hover svg {
+    fill: var(--iris-color);
+    transition: var(--transition);
+}
+
+.subscribe-footer:hover .subscribe-btn {
+    background-color: var(--white-color);
+    color: var(--iris-color);
+    transition: var(--transition);
+}
+
+.subscribe-btn svg {
+    height: 20px;
+    width: 24px;
+    margin-left: 16px;
+    fill: var(--white-color);
+}
+
+.subscribe-container {
+    padding-left: 150px;
+    height: 100px;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 20px;
+    height: 100px;
+    align-items: flex-end;
+}
+
+.subscribe-footer {
+    display: flex;
+    height: 40px;
+    align-items: flex-end;
+}
